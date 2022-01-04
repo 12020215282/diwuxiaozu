@@ -40,10 +40,11 @@ exit
 exit 
  ```
 
-<p>&emsp;&emsp;本实验所用的MariaDB版本是10.6.5。在上述的基础上，docker运行flask容器指令如下：</p>
+<p>&emsp;&emsp;2、构建并运行Python容器，并实现与mariadb容器的通信，具体指令如下：</p>
 
  ```
- contaienr_name="velcom-nginx"
+Dockerfile内容如下：
+contaienr_name="velcom-nginx"
 docker build -t velcom .
 docker container stop ${contaienr_name}
 docker container rm ${contaienr_name}
