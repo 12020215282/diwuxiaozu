@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="cn-zh">
+<head>
+    <meta charset="UTF-8">
+    <title>数据列表</title>
+</head>
+
+<body>
+    <center>
+    <h1>mysql数据列表</h1>
+    <a href="/add/">添加操作</a>
+    <hr>
+    <table border="1px" width="400px">
+        <tr style="text-align:center">
+            <th>ID</th>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>性别</th>
+            <th>电话</th>
+            <th>操作</th>
+        </tr>
+        {% for i in userlist %}
+        <tr style="text-align:center">
+            <td>{{ i[0] }}</td>
+            <td>{{ i[1] }}</td>
+            <td>{{ i[2]}}</td>
+            <td>{{ i[3] }}</td>
+            <td>{{ i[4] }}</td>
+            <td><a href="/del?id={{ i[0] }}">删除</a> | <a href="/cha?id={{ i[0] }}">更改</a></td>
+        </tr>
+        {% endfor %}
+
+    </table>
+    </center>
+
+</body>
+</html>
+
+
