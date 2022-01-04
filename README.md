@@ -75,16 +75,26 @@ docker run \
 ### <li>程序运行截图
  
 <center>
-  <img src="screenShot_img\1.png" width="400" height=""> 
-  </center>
+  <img src="image\1.jpg" width="400" height=""> 
+</center>
 <center>
-  <img src="screenShot_img\2.png" width="400" height=""> 
-  </center>
-
+  <img src="image\2.jpg" width="400" height=""> 
+</center>
 <center>
-  <img src="screenShot_img\3.png" width="400" height=""> 
-  </center>
-
+  <img src="image\3.jpg" width="400" height=""> 
+</center>
 <center>
-  <img src="screenShot_img\4.png" width="400" height=""> 
-  </center>
+  <img src="image\4.jpg" width="400" height=""> 
+</center>
+<center>
+  <img src="image\5.jpg" width="400" height=""> 
+</center>
+<center>
+  <img src="image\6.jpg" width="400" height=""> 
+</center>
+<center>
+  <img src="image\7.jpg" width="400" height=""> 
+</center>
+<center>
+  <img src="image\8.jpg" width="400" height=""> 
+</center>
